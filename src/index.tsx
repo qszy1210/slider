@@ -1,16 +1,5 @@
 import * as React from 'react';
+import {render} from 'react-dom';
+import App from "./App";
 
-export interface IndexProps {
-}
-
-class Index extends React.Component<IndexProps, any> {
-  render() {
-    return (
-      <div>
-        index config
-      </div>
-    );
-  }
-}
-
-export default Index;
+render(<App />,  document.getElementById('app'));

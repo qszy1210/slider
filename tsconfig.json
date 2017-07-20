@@ -1,10 +1,11 @@
 {
     "compilerOptions": {
-        "module": "system",
         "noImplicitAny": false,
         "removeComments": true,
         // "preserveConstEnums": true,
-        "outFile": "built",
+        "noEmit": false,
+        // "outFile": "built",
+        "outDir": "built",
         "sourceMap": true,
         "target": "es5",
         "jsx": "react",
