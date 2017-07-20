@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
         "module": "system",
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "removeComments": true,
-        "preserveConstEnums": true,
+        // "preserveConstEnums": true,
         "outFile": "built",
         "sourceMap": true,
+        "target": "es5",
+        "jsx": "react",
         "lib": ["dom", "es5", "es6"]
     },
     "include": [

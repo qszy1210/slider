@@ -4,7 +4,7 @@
   "description": "just a slider",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,15 @@
   },
   "homepage": "https://github.com/qs1210/slider#readme",
   "devDependencies": {
+    "@types/react": "^15.0.38",
+    "@types/react-dom": "^15.5.1",
+    "ts-loader": "^2.3.1",
+    "typescript": "^2.4.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "ts-loader": "^2.3.1"
+    "react-dom": "^15.6.1"
   }
 }
