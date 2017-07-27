@@ -4,7 +4,7 @@
   "description": "just a slider",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "webpack --config webpack.config.js"
+    "start": "webpack-dev-server --hot --progress --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,12 @@
   },
   "homepage": "https://github.com/qs1210/slider#readme",
   "devDependencies": {
+    "@types/node": "^8.0.16",
     "@types/react": "^15.0.38",
     "@types/react-dom": "^15.5.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
     "ts-loader": "^2.3.1",
     "typescript": "^2.4.2",
     "webpack": "^3.3.0",

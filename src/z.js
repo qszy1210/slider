@@ -40,6 +40,7 @@ const moveLeft = function(node) {
 const reset = function(node) {
     const left = window.getComputedStyle(node).left;
     node.setAttribute("style", "left: " + (-250) + "px");
+    console.log("test1");
 }
 
 window.onload = function() {
@@ -77,6 +78,9 @@ window.onload = function() {
             reset(showArea);
         }
     });
+
+    console.log("change something");
+    console.log("change something");
 
 
 }
